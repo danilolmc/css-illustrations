@@ -157,6 +157,13 @@ section {
   border: 5px solid var(--dark);
   display: block;
   background: #79767d;
+  animation: anima-sound .5s ease infinite;
+}
+
+@keyframes anima-sound{
+  to{
+    transform: scale(1.1);
+  }
 }
 
 .sound-box footer {
