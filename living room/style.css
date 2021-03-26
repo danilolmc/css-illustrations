@@ -76,8 +76,21 @@ section {
   bottom: 0.4rem;
 }
 
+.sound-box::before{
+    content: "";
+    display: block;
+    width: 90%;
+    height: 97%;
+    background: var(--medium-light-gray);
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+
 .sound-box {
-  background: var(--medium-light-gray);
+  background: #d1d1d9;
   width: 5.4rem;
   border: 9px solid var(--dark);
   padding: 1rem 0.6rem;
